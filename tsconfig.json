@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "paths": {
+      "vue": ["node_modules/mpvue"],
+      "@/*": ["src/*"]
+    },
+    "types": ["tencent-wx-app"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["./src/**/*", "typings/**/*"],
+  "exclude": ["node_modules"],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
